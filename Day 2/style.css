@@ -1,0 +1,41 @@
+body{
+    background: url(img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.center {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.head {
+    font-family: Cursive, sans-serif;
+    font-size: 8em;
+    font-weight: bold;
+    color: #b5d3d4;
+    text-decoration: underline;
+}
+.grid-box {
+    margin: 8em auto;
+    width: 60%;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30 32 41);
+    text-align: center;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+img {
+    width: 50%;
+    transform: translateY(50%);
+}
